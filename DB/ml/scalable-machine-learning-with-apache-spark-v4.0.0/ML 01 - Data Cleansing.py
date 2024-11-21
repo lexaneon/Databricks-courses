@@ -45,7 +45,8 @@
 
 # COMMAND ----------
 
-data_source_uri = "wasbs://courseware@dbacademy.blob.core.windows.net/scalable-machine-learning-with-apache-spark/v02"
+# data_source_uri = "wasbs://courseware@dbacademy.blob.core.windows.net/scalable-machine-learning-with-apache-spark/v02"
+data_source_uri = "/Volumes/ctl_dev_utils/utils/scalable-machine-learning-with-apache-spark/v02/"
 install_path = "dbfs:/mnt/dbacademy-datasets/scalable-machine-learning-with-apache-spark/v02"
 
 # COMMAND ----------
