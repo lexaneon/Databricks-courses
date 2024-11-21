@@ -3,6 +3,15 @@
 
 # COMMAND ----------
 
+dbutils.widgets.dropdown(
+         name="dbacademy.data-source-uri",
+         defaultValue="/Volumes/ctl_dev_utils/utils/scalable-machine-learning-with-apache-spark/v02",
+         choices=["/Volumes/ctl_dev_utils/utils/scalable-machine-learning-with-apache-spark/v02", ],
+         label="dbacademy.data-source-uri",
+     )
+
+# COMMAND ----------
+
 import re
 
 DA = DBAcademyHelper(course_config, lesson_config)
